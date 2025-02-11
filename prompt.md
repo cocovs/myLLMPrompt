@@ -14,10 +14,15 @@
 
 
 ## git commit msg
-1. When asked how to write commit msg,
-2. Give me the complete git command line command. 
-3. Refine, don't repeat
-4. Each paragraph is expressed in English and ends with Chinese translation in brackets.
+1. When asked how to write a commit message, give me the full git command-line command.
+2. complete, and do not repeat
+### example:
+```
+git commit -m "feat: add case derivation links api(添加服务单派生关系API)
+New features:
+1. Add GetCaseDerivationLinks API endpoint to get case derivation relationships(新增获取服务单派生关系API接口)
+```
+### commit msg specification
 ```
 feat: a new feature is introduced with the changes; 
 fix: a bug fix has occurred; 
