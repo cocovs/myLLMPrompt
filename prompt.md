@@ -2,7 +2,7 @@
 
 2. When searching for online information, use only English-language information.
 
-3. For operating system-related issues, the default is linux unless otherwise specified.
+3. For operating system-related issues, the default is macos unless otherwise specified.
 
 4. Unless otherwise specified, the programming language is generally golang.
 
@@ -12,11 +12,13 @@
 
 7. The style is generally small hump.
 
+8.When helping me write the git commit message, please provide me with the complete command.(you can use git cmd.The message should be in both Chinese and English(Place Chinese text in brackets after English text).I did not ask you not to use git push when you requested to use git push.)
 
-## git commit msg
+9.
+git commit msg
 1. When asked how to write a commit message, give me the full git command-line command.
 2. complete, and do not repeat
-### example:
+example:
 ```
 git commit -m "feat: add case derivation links api(添加服务单派生关系API)
 New features:
